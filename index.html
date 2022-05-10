@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Oswald:wght@300;400;600&family=Poppins:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmMWM0MGYiPjxwYXRoIGQ9Ik0xMDAuMTksMjUuMjYyNWwtNDEuMjgsMTE2Ljk2bDEyLjksNC41MTVsNDEuMjgsLTExNi45NnpNMzQuMTg1LDQ2LjAxbC0yOS44ODUsMzUuNTgyNWwtMy42NTUsNC40MDc1bDMuNjU1LDQuNDA3NWwyOS44ODUsMzUuNjlsMTAuNjQyNSwtOC44MTVsLTI2LjIzLC0zMS4yODI1bDI2LjEyMjUsLTMxLjE3NXpNMTM3LjgxNSw0Ni4wMWwtMTAuNTM1LDguODE1bDI2LjEyMjUsMzEuMTc1bC0yNi4xMjI1LDMxLjE3NWwxMC42NDI1LDguODE1bDI5LjY3LC0zNS41ODI1bDMuNjU1LC00LjQwNzVsLTMuNjU1LC00LjQwNzV6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
+          alt="sinal de maior =, seguido de uma barra e um sinal de menor"
+        />
+      </div>
+      <ul>
+        <li>
+          <a target="_blank" href="https://github.com/gustanascimento18">
+            Github
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="mailto:gustanascimento18@gmail.com">
+            Email
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://wa.me/88999611423"> Whatsapp </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/gustanascimento18/"
+          >
+            Linkedin
+          </a>
+        </li>
+      </ul>
+    </header>
+    <div id="divisor"></div>
+    <main>
+      <section class="container">
+        <div>
+          <h1 class="name">Gustavo Nascimento</h1>
+          <h4>Full-Stack Developer</h4>
+        </div>
+        <br />
+        <div onclick="displayAbout()" id="arrow">
+          <svg
+            id="animation"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-down-circle"
+            width="60"
+            height="60"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="#ffec00"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="12" r="9" />
+            <line x1="8" y1="12" x2="12" y2="16" />
+            <line x1="12" y1="8" x2="12" y2="16" />
+            <line x1="16" y1="12" x2="12" y2="16" />
+          </svg>
+        </div>
+        <div style="display: none" id="about">
+          <p>
+            Hey! My name is Gustavo Nascimento and i'm a huge web development
+            enthusiast. I developed this project during Hiring Coders, a program
+            for developers, promoted by Gama Academy in partnership with
+            VETEX-IO.
+          </p>
+        </div>
+        <br />
+        <div class="form">
+          <div>
+            <p>Leave your contact!</p>
+          </div>
+          <form action="">
+            <input type="text" placeholder="your best Email :)" />
+            <button>send!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function displayAbout() {
+        var arrow = document.getElementById('animation')
+        arrow.classList.toggle('rotate')
+        var display = document.getElementById('about')
+        display.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
