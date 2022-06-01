@@ -75,12 +75,10 @@ header ul li a:hover{
   text-decoration:underline;
   transition: 300ms;
   font-size: large;
-  font-weight: bold;
-  background-color: rgb(75,75,75);
   display: inline-block;
-  border-radius: 5px 5px 5px 5px;
-  /* width: 19.5%;
-  margin: 0.625%; */
+  border-radius: 5px;
+  width: 19.5%;
+  margin: 0.625%;
 }
 
 #divisor{
@@ -160,7 +158,7 @@ header ul li a:hover{
   color: rgb(242, 230, 63);
   padding: 5px 10px;
   border: none;
-  width: 15%;
+  width: 20%;
   background: linear-gradient(to right, rgb(242, 230, 63) 50%, rgb(75, 75, 75) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
@@ -168,7 +166,7 @@ header ul li a:hover{
   cursor: pointer;
   transition: all 300ms ease-out;
   text-align:center;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 15px;
   display:block;
   align-items:center;
   margin: 0 auto;
@@ -185,7 +183,7 @@ header ul li a:hover{
 /* ************ RESPONSIVIDADE *************** */
 @media only screen and (max-width: 768px) {
   .form {
-    width: 100%;
+    width: 85%;
   }
 }
 
