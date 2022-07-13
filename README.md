@@ -39,10 +39,6 @@
 
 <br>
 
-Ao manipular a interface pode-se selecionar a música desejada, diminuir ou aumentar seu volume, pausar, adiantar para a próxima música ou voltar para a música anterior, ao passo que o nome da música, o nome do artista e a imagem correspondente ao álbum da música modificam conforma a música selecionada.
-
-<br>
-
 <!-- CONTACT -->
 
 # Contatos
